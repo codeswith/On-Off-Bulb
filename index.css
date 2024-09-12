@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-cont{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OnOff{
+    height: 40;
+    width: 55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #E8B86D;
+    padding: 15px;
+    background-color: #F1F3C2;
+    color: black;
+
+}

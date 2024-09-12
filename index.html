@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class=" main-cont">
+    <img id="bulbImg" src="off.png" height="500" alt="bulb">
+    
+    <div class="OnOff">
+            <p class="fs-4">Switch-box</p>
+            <div>
+        <button id="offbtn" onclick="onClickChangeOff()" class="btn btn-danger">Off</button>
+        <button id="onbtn" onclick="onClickChangeOn()" class="btn btn-success">On</button>
+            </div>
+    </div>
+
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
